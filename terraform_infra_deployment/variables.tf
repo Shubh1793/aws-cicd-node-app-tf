@@ -1,7 +1,7 @@
 
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 variable "env" {
   description = "Targeted Depolyment environment"
@@ -37,7 +37,7 @@ variable "golang_project_repository_branch" {
 
 variable "artifacts_bucket_name" {
   description = "S3 Bucket for storing artifacts"
-  default     = "your-project-name-cicd-artifacts-bucket"
+  default     = "shubham-multiapp-bucket"
 }
 
 variable "aws_ecs_cluster_name" {
